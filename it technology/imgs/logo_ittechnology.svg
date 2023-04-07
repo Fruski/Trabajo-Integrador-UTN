@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.71 43.25">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Exo2-BlackItalic, 'Exo 2 Black';
+        font-size: 37.42px;
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <path class="cls-1" d="m48.27,7.69c-.79-.98-1.98-1.43-3.14-1.32-.24-.03-9.72-.14-9.96-.11-.47-.05-.95,0-1.41.13-.97.19-1.8.75-2.32,1.55-.17.17-14.46,17.78-14.59,17.99-.65.65-1.05,1.55-1.05,2.54,0,1.98,1.61,3.59,3.59,3.59,1.25,0,2.36-.64,3-1.62.15-.15,10.81-13.29,13.81-17.01,2.53.04,8.69.11,8.89.09.91.1,1.86-.15,2.63-.77,1.55-1.24,1.79-3.5.55-5.05Z"/>
+        <path class="cls-1" d="m23.34,8.8c0-2.08-1.69-3.77-3.77-3.77-1.32,0-2.47.68-3.15,1.7-.18.18-8.06,9.89-8.2,10.11-.68.68-1.1,1.62-1.1,2.66,0,2.08,1.69,3.77,3.77,3.77,1.32,0,2.47-.68,3.15-1.7.18-.18,8.06-9.89,8.2-10.11.68-.68,1.1-1.62,1.1-2.66Z"/>
+        <path class="cls-1" d="m3.77,24.51c-2.08,0-3.77,1.69-3.77,3.77s1.69,3.77,3.77,3.77,3.77-1.69,3.77-3.77-1.69-3.77-3.77-3.77Z"/>
+        <path class="cls-1" d="m35.37,24.51c-2.08,0-3.77,1.69-3.77,3.77s1.69,3.77,3.77,3.77,3.77-1.69,3.77-3.77-1.69-3.77-3.77-3.77Z"/>
+      </g>
+      <text class="cls-2" transform="translate(55.85 31.62)"><tspan x="0" y="0">T</tspan><tspan class="cls-5" x="23.12" y="0">E</tspan><tspan x="44.83" y="0">CHNO</tspan><tspan class="cls-6" x="147.27" y="0">L</tspan><tspan class="cls-4" x="167.51" y="0">O</tspan><tspan class="cls-7" x="193.71" y="0">G</tspan><tspan class="cls-3" x="218.1" y="0">Y</tspan></text>
+    </g>
+  </g>
+</svg>
