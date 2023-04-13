@@ -10,7 +10,7 @@ nav a {
     padding: 10px 15px;
     display:inline-flex ;
     font-weight: bold; 
-    font-size: 16px; 
+    font-size: 18px; 
     text-transform: uppercase; 
     justify-content: right;
     align-items:center;
@@ -52,7 +52,7 @@ header {
     align-content:center;
     justify-content:space-between;
     justify-items: center;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .container {
@@ -97,7 +97,52 @@ footer {
     color:#d7d9d8;
     padding: 18px 0;
     align-items: center;
+    flex-direction: column;
 }
 .footer-links {
     color:#03d9d9;
+    margin-right:auto ;
 }
+footer ul {
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Muestra los elementos en una línea */
+    flex-direction: column; /* Muestra los elementos en una columna vertical */
+    justify-content:flex-start;
+}
+footer li {
+    margin-bottom: 2px;
+}
+.social-icons {
+    display: flex; /* Muestra los elementos en una línea */
+    justify-content: flex-end; /* Alinea los elementos hacia el margen derecho */
+    margin-left: auto;
+}
+  
+.social-icons ul {
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+  
+.social-icons li {
+    margin-right: 10px; /* Agrega un espacio entre los elementos */
+}
+.parte-inferior {
+    display: flex; /* Muestra los elementos en una columna */
+    justify-content: flex-end; /* Alinea los elementos hacia la parte inferior */
+    height: 100%; /* Establece la altura del div en 100% para que ocupe todo el espacio disponible */
+}
+  
+.parte-inferior ul {
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+  
+.parte-inferior li {
+    margin-bottom: 10px; /* Agrega un espacio entre los elementos */
+    background-color: #03d9d9;
+}
+  
