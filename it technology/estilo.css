@@ -6,13 +6,14 @@ nav a {
     text-decoration: none;
     color:#d7d9d8;
     background-color:#03d9d9;
+    margin: 0%;
     padding: 10px 15px;
     display:inline-flex ;
     font-weight: bold; 
     font-size: 16px; 
     text-transform: uppercase; 
     justify-content: right;
-    align-items: flex-start;
+    align-items:center;
 }
 nav ul {
     background-color:#03d9d9;
@@ -21,48 +22,58 @@ nav ul {
     padding: 0; 
     display:inline-flex; 
     justify-content:left; 
-    align-items:flex-start; 
+    align-items:center; 
 }
+
 header {
     background-color:#024059;
-    padding: 20px;
-    margin: 1%;
+    padding: 15px;
+    margin: 0%;
 }
 .header-container{
     display:inline-flex;
     align-items:flex-start;
     align-content: flex-start;
     background-color:#024059;
-    color:#d7d9d8;
 }
 
-/* Estilo para la lista dentro de la clase "partners" */
+
 .partners ul {
-    list-style: none; /* Elimina los puntos de la lista */
+    list-style: none; 
     padding: 0; 
     display:inline-flex;
     align-items: center;
     align-content: center;
-    justify-items: center;
+    justify-content: center;
 }
   
-  /* Estilo para los elementos de la lista dentro de la clase "partners" */
 .partners li {
-    display:inline-flex; /* Muestra los elementos en línea */
-    align-content: center;
+    display:inline-flex; 
+    align-content:center;
     justify-content:space-between;
     justify-items: center;
-    margin-right: 20px; /* Agrega un margen derecho de 20px */
+    margin-right: 20px; 
 }
 
 .container {
     background-color:#03d9d9;
     display:inline-flex;
-    justify-content:space-between;
+    justify-content:center;
+    padding: 0%;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     color:#03d9d9;  
+}
+   
+.container-fluid{
+    background-color: #024059;
+    padding: auto;
+    text-decoration-color:#d7d9d8;
+}
+.navbar-brand{
+    background-color: #024059;
+    color: #024059;
 }
 
 .logo img {
@@ -82,9 +93,10 @@ header {
     color:#0396a7;
 }
 footer {
-    background-color:#03d9d9; /* Fondo azul */
-    color: white; /* Texto blanco */
-    padding: 20px 0; /* Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
+    background-color:#03d9d9;
+    color:#d7d9d8;
+    padding: 18px 0;
+    align-items: center;
 }
 .footer-links {
     color:#03d9d9;
