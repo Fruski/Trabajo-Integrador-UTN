@@ -176,3 +176,8 @@ footer {
     text-align: center;
     
 }
+.mi-seccion {
+    background-color:black;
+    color:bisque;
+    padding: 1px;
+}
