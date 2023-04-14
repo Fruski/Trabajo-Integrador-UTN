@@ -1,0 +1,48 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    justify-content: right;
+}
+  
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: dimgrey;
+    border: darkgrey;
+    justify-content: right;
+}
+  
+nav a {
+    text-decoration: none;
+    color:white;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    justify-content: right;
+}
+  
+nav a:hover {
+    background-color: darkblue;
+    justify-content: right;
+}
+.navbar-expand-lg {
+    justify-content: right;
+    color: blue;
+}
+.container-fluid {
+    justify-content: right;
+    align-items: flex-start;
+}
+.collapse {
+    justify-content: right;
+    }
+.collapse button{
+    color:blue;
+}
+.btn-outline-success {
+   color:blue;
+   background-color: blue;
+   border-color: blue;
+}   
