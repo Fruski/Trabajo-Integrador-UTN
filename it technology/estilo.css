@@ -1,26 +1,31 @@
 nav {
-    background-color:#03d9d9; 
+    background-color:#0396a7; 
 }
+
+.navbar {
+    padding: none;
+} /*elimina las barras blancas arriba y abajo del menú*/
 
 nav a {
     text-decoration: none;
-    color:#d7d9d8;
-    background-color:#03d9d9;
+    background-color: #0396a7;
     padding: 10px 15px;
-    display:inline-flex ;
-    font-weight: bold; 
+    display: inline-flex;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
     font-size: 16px; 
     text-transform: uppercase; 
     justify-content: right;
     align-items: flex-start;
 }
+
 nav ul {
-    background-color:#03d9d9;
+    background-color:#0396a7;
     list-style: none; 
     margin: 0; 
-    padding: 0; 
+    padding: 0;
     display:inline-flex; 
-    color:#d7d9d8; /*coloco color a las letras*/
+    color:#ffffff; /*coloco color a las letras*/
     justify-content:left; /* Distribuye el espacio entre los elementos de la lista */
     align-items:flex-start; /* Centra verticalmente los elementos de la lista */
 }
@@ -28,14 +33,15 @@ nav ul {
 header {
     background-color:#024059;
     padding: 20px;
-    margin: 1%;
+    margin: 0;
 }
-.header-container{
+
+.header-container {
     display:inline-flex;
     align-items:flex-start;
     align-content: flex-start;
     background-color:#024059;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Exo 2', sans-serif;
 }
 
 /* Estilo para la lista dentro de la clase "partners" */
@@ -46,6 +52,7 @@ header {
     align-items: center;
     align-content: center;
     justify-items: center;
+    border-bottom: 10%;
 }
   
   /* Estilo para los elementos de la lista dentro de la clase "partners" */
@@ -58,7 +65,7 @@ header {
 }
 
 .container {
-    background-color:#03d9d9;
+    background-color:#0396a7;
     display:inline-flex;
     justify-content:space-between;
     width: 50%;
@@ -67,13 +74,14 @@ header {
     color:#03d9d9;  
 }
    
-.container-fluid{
+.container-fluid {
     background-color: #024059;
     padding: auto;
     text-decoration-color:#d7d9d8;
     color:#d7d9d8;
 }
-.navbar-brand{
+
+.navbar-brand {
     background-color: #024059;
     color: #024059;
 }
@@ -87,41 +95,41 @@ header {
 }
 
 /*logo de la empresa*/
-.logo-2{
-    background-color: #03d9d9;
+.logo-2 {
+    background-color: #0396a7;
 }
-.main h2{
-    color:#d7d9d8;
-   
+
+.main h2 {
+    color:#ffffff;
 }
-.main h3{
+
+.main h3 {
     color:#0396a7;
    /* text-align: center; /*agregado por fruski*/
-    
 }
+
 footer {
-    background-color:#03d9d9; /* Fondo azul */
+    background-color:#0396a7; /* Fondo azul */
     color: white; /* Texto blanco */
     padding: 10px 0;  /*Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
 }
-.footer-links {
-    color:#03d9d9;
 
+.footer-links {
+    color:#0396a7;
 }
 
  /*menu de la empresa*/
-.footer-links ul{
+.footer-links ul {
     list-style-type: disc;
     display: block;
     text-align:left;
     line-height: 1,5%; /*coloca un interlineado en el menu*/
     margin-left: -60%; /*centra el menu al lado del logo*/
     position: absolute;
-    
 }
 
 /*datos sociales de la empresa*/
-.social-icons ul{
+.social-icons ul {
     list-style-type: disc;
     text-align:left;
     display: block;
@@ -130,23 +138,19 @@ footer {
     max-width: 60%;
     margin-top: -20%;
     position: absolute;
-    
 }
 
 /*alineo las diferentes opciones del footer*/
-
-.logo-2, .footer-links ul, .social-icons ul{
+.logo-2, .footer-links ul, .social-icons ul {
     display: inline-block;
-       
-    
 }
 
-.centro{
+.centro {
     width: 80%;
     margin: 10%;
 }
 
-.partners ul{
+.partners ul {
     display: block;
     margin: auto;
 }
@@ -164,8 +168,6 @@ footer {
 .logo-2 {
     width: 20%;
     margin: 10%;
-
-
 }
 
 /*organizo los datos de la parte inferior*/
@@ -174,8 +176,8 @@ footer {
     height: 40px;
     background-color: #024059;
     text-align: center;
-    
 }
+
 .mi-seccion {
     background-color:black;
     color:bisque;
