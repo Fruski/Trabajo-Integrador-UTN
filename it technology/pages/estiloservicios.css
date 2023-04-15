@@ -76,7 +76,7 @@ header {
 footer {
     background-color:#03d9d9; /* Fondo azul */
     color: white; /* Texto blanco */
-    padding: 20px 0; /* Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
+    padding: 10px 0; /* Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
 }
 .footer-links {
     color:#03d9d9;
@@ -86,18 +86,39 @@ footer {
 .footer-links ul{
     list-style-type: disc;
     display: block;
-    text-align: left;
-    line-height: normal;
+    text-align:left;
+    line-height: 1,5%; /*coloca un interlineado en el menu*/
+    margin-left: -60%; /*centra el menu al lado del logo*/
+    position: absolute;
+        
+}
+.social-icons ul{
+    list-style-type:disc;
+    text-align:left;
+    display: block;
+    line-height: 1,5%;
+    margin-left: 70%;
+    max-width: 60%;
+    margin-top: -20%;
+    position: absolute;
     
 }
 
 .logo-2, .footer-links ul, .direccion ul{
     display: inline-block;
+}    
     
     
+
+.iconos ul {
+        display:inline-flex; /*coloca en linea los inconos*/
+        margin-left: 70%;
+        max-width: 60%;
+        margin-top: -10%;
+        position:absolute;
     
 }
-
+    
 .iconos li{
     display:inline-flex;
 }
