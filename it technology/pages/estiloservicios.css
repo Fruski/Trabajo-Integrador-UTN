@@ -74,12 +74,12 @@ header {
 }
 
 footer {
-    background-color:#03d9d9; /* Fondo azul */
+    background-color:#0396a7; /* Fondo azul */
     color: white; /* Texto blanco */
     padding: 10px 0; /* Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
 }
 .footer-links {
-    color:#03d9d9;
+    color:#0396a7;
 
 }
 
