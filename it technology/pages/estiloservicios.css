@@ -1,48 +1,117 @@
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: grey;
-    justify-content: right;
+nav {
+    background-color:#03d9d9; 
 }
-  
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-    background-color: dimgrey;
-    border: darkgrey;
-    justify-content: right;
-}
-  
+
 nav a {
     text-decoration: none;
-    color:white;
-    background-color: blue;
+    color:#d7d9d8;
+    background-color:#03d9d9;
     padding: 10px 15px;
-    border-radius: 5px;
-    justify-content: right;
-}
-  
-nav a:hover {
-    background-color: darkblue;
-    justify-content: right;
-}
-.navbar-expand-lg {
-    justify-content: right;
-    color: blue;
-}
-.container-fluid {
+    display:inline-flex ;
+    font-weight: bold; 
+    font-size: 16px; 
+    text-transform: uppercase; 
     justify-content: right;
     align-items: flex-start;
 }
-.collapse {
-    justify-content: right;
-    }
-.collapse button{
-    color:blue;
+nav ul {
+    background-color:#03d9d9;
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display:inline-flex; 
+    color:#d7d9d8; /*coloco color a las letras*/
+    justify-content:left; /* Distribuye el espacio entre los elementos de la lista */
+    align-items:flex-start; /* Centra verticalmente los elementos de la lista */
 }
-.btn-outline-success {
-   color:blue;
-   background-color: blue;
-   border-color: blue;
-}   
+
+header {
+    background-color:#024059;
+    padding: 20px;
+    margin: 1%;
+}
+.header-container{
+    display:inline-flex;
+    align-items:flex-start;
+    align-content: flex-start;
+    background-color:#024059;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Estilo para la lista dentro de la clase "partners" */
+
+
+.container {
+    background-color:#03d9d9;
+    display:inline-flex;
+    justify-content:space-between;
+    width: 50%;
+    max-width: 50px;
+    margin: 0 auto;
+    color:#03d9d9;  
+}
+   
+.container-fluid{
+    background-color: #024059;
+    padding: auto;
+    text-decoration-color:#d7d9d8;
+    color:#d7d9d8;
+}
+.navbar-brand{
+    background-color: #024059;
+    color: #024059;
+}
+
+.logo img {
+    justify-content: left;
+    max-width: 100%;
+    height: auto;
+    background-color:#024059;
+    color:#024059;
+}
+.logo-2{
+    background-color: #03d9d9;
+}
+
+footer {
+    background-color:#03d9d9; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 20px 0; /* Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
+}
+.footer-links {
+    color:#03d9d9;
+
+}
+
+.footer-links ul{
+    list-style-type: disc;
+    display: block;
+    text-align: left;
+    line-height: normal;
+    
+}
+
+.logo-2, .footer-links ul, .direccion ul{
+    display: inline-block;
+    
+    
+    
+}
+
+.iconos li{
+    display:inline-flex;
+}
+
+.logo-2 {
+    width: 20%;
+    margin: 10%;
+}
+
+.main h2 {
+    color:#0396a7;
+}
+.mi-seccion {
+    background-color:black;
+    color:bisque;
+    padding: 1px;
+}
