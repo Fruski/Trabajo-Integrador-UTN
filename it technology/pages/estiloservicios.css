@@ -1,11 +1,11 @@
 nav {
-    background-color:#03d9d9; 
+    background-color:#0396a7; 
 }
 
 nav a {
     text-decoration: none;
     color:#d7d9d8;
-    background-color:#03d9d9;
+    background-color:#0396a7;
     padding: 10px 15px;
     display:inline-flex ;
     font-weight: bold; 
@@ -15,7 +15,7 @@ nav a {
     align-items: flex-start;
 }
 nav ul {
-    background-color:#03d9d9;
+    background-color:#0396a7;
     list-style: none; 
     margin: 0; 
     padding: 0; 
@@ -42,17 +42,17 @@ header {
 
 
 .container {
-    background-color:#03d9d9;
+    background-color:#0396a7;
     display:inline-flex;
     justify-content:space-between;
     width: 50%;
     max-width: 50px;
     margin: 0 auto;
-    color:#03d9d9;  
+    color:#0396a7;  
 }
    
 .container-fluid{
-    background-color: #024059;
+    background-color:#024059;
     padding: auto;
     text-decoration-color:#d7d9d8;
     color:#d7d9d8;
@@ -70,7 +70,7 @@ header {
     color:#024059;
 }
 .logo-2{
-    background-color: #03d9d9;
+    background-color:#0396a7;
 }
 
 footer {
