@@ -76,6 +76,9 @@ header {
 .logo-2{
     background-color:#0396a7;
 }
+.servicios {
+    
+}
 
 footer {
     background-color:#0396a7; /* Fondo azul */
@@ -125,11 +128,15 @@ footer {
     
 .iconos li{
     display:inline-flex;
+    
 }
 
 .logo-2 {
     width: 20%;
     margin: 10%;
+}
+.main h1{
+    color:#0396a7;
 }
 
 .main h2 {
