@@ -9,6 +9,7 @@ nav {
 nav a {
     text-decoration: none;
     background-color: #0396a7;
+    color:#d7d9d8;
     padding: 10px 15px;
     display: inline-flex;
     font-family: 'Exo 2', sans-serif;
