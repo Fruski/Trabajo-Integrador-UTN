@@ -1,13 +1,13 @@
 /* Estilos de la cabecera*/
 
 nav {
-    background-color:#03d9d9; 
+    background-color:#0396a7; 
 }
 
 nav a {
     text-decoration: none;
     color:#d7d9d8;
-    background-color:#03d9d9;
+    background-color:#0396a7;
     padding: 10px 15px;
     display:inline-flex ;
     font-weight: bold; 
@@ -17,7 +17,7 @@ nav a {
     align-items: flex-start;
 }
 nav ul {
-    background-color:#03d9d9;
+    background-color:#0396a7;
     list-style: none; 
     margin: 0; 
     padding: 0; 
@@ -41,7 +41,7 @@ header {
 }
 
 .container {
-    background-color:#03d9d9;
+    background-color:#0396a7;
     display:inline-flex;
     justify-content:space-between;
     width: 50%;
@@ -71,7 +71,7 @@ header {
 
 /*logo de la empresa*/
 .logo-2{
-    background-color: #03d9d9;
+    background-color: #0396a7;
 }
 
  /* centro todo lo que esta la seccion main productos*/
