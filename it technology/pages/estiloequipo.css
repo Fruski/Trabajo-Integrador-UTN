@@ -81,6 +81,9 @@ header {
 }
 .equip{
     color:#0396a7;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
 .main h3{
     color:#0396a7;
