@@ -2,10 +2,6 @@ nav {
     background-color:#0396a7; 
 }
 
-.navbar {
-    padding: none;
-} /*elimina las barras blancas arriba y abajo del menú*/
-
 nav a {
     text-decoration: none;
     background-color: #0396a7;
@@ -72,14 +68,14 @@ header {
     width: 50%;
     max-width: 50px;
     margin: 0 auto;
-    color:#03d9d9;  
+    color:#0396a7;  
 }
    
 .container-fluid {
     background-color: #024059;
     padding: auto;
-    text-decoration-color:#d7d9d8;
-    color:#d7d9d8;
+    text-decoration-color:#ffffff;
+    color:#ffffff;
 }
 
 .navbar-brand {
@@ -100,13 +96,40 @@ header {
     background-color: #0396a7;
 }
 
-.main h2 {
+.main #fraseHome {
     color:#ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.main h1 {
+    color:#0396a7;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.main h2 {
+    color:#3c3c3b;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: capitalize;
 }
 
 .main h3 {
     color:#0396a7;
-   /* text-align: center; /*agregado por fruski*/
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.main p {
+    color:#3c3c3b;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 footer {
