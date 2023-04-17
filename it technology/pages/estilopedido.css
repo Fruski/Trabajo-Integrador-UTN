@@ -3,6 +3,9 @@
 nav {
     background-color:#0396a7; 
 }
+.navbar {
+    padding: none;
+} /*elimina las barras blancas arriba y abajo del menú*/
 
 nav a {
     text-decoration: none;
@@ -10,7 +13,8 @@ nav a {
     background-color:#0396a7;
     padding: 10px 15px;
     display:inline-flex ;
-    font-weight: bold; 
+    font-family: 'Exo 2', sans-serif;
+    font-weight:700; 
     font-size: 16px; 
     text-transform: uppercase; 
     justify-content: right;
@@ -30,7 +34,7 @@ nav ul {
 header {
     background-color:#024059;
     padding: 20px;
-    margin: 1%;
+    margin: 0%;
 }
 .header-container{
     display:inline-flex;
