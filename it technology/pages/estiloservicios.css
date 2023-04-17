@@ -1,13 +1,17 @@
 /* Estilos de la cabecera*/
 
 nav {
-    background-color:#03d9d9; 
+    background-color:#0396a7; 
 }
+.navbar {
+    padding: none;
+} /*elimina las barras blancas arriba y abajo del menú*/
+
 
 nav a {
     text-decoration: none;
+    background-color:#0396a7;
     color:#d7d9d8;
-    background-color:#03d9d9;
     padding: 10px 15px;
     display:inline-flex ;
     font-weight: bold; 
@@ -17,7 +21,7 @@ nav a {
     align-items: flex-start;
 }
 nav ul {
-    background-color:#03d9d9;
+    background-color:#0396a7;
     list-style: none; 
     margin: 0; 
     padding: 0; 
@@ -30,7 +34,7 @@ nav ul {
 header {
     background-color:#024059;
     padding: 20px;
-    margin: 1%;
+    margin: 0%;
 }
 .header-container{
     display:inline-flex;
@@ -41,17 +45,17 @@ header {
 }
 
 .container {
-    background-color:#03d9d9;
+    background-color:#0396a7;
     display:inline-flex;
     justify-content:space-between;
     width: 50%;
     max-width: 50px;
     margin: 0 auto;
-    color:#03d9d9;  
+    color:#0396a7;  
 }
    
 .container-fluid{
-    background-color: #024059;
+    background-color:#024059;
     padding: auto;
     text-decoration-color:#d7d9d8;
     color:#d7d9d8;
@@ -71,9 +75,10 @@ header {
 
 /*logo de la empresa*/
 .logo-2{
-    background-color: #03d9d9;
+    background-color:#0396a7;
 }
 
+<<<<<<< HEAD
 /*Estilos en la seccion main productos*/
 
  /* centro todo lo que esta la seccion main productos*/
@@ -90,10 +95,43 @@ footer {
     background-color:#0396a7; /* Fondo azul */
     color: white; /* Texto blanco */
     padding: 10px 0;  /*Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
+=======
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+  
+.item img {
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+}
+  
+.content {
+    display: flex;
+    flex-direction: column;
+}
+  
+footer {
+    background-color:#0396a7; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 10px 0; /* Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
+>>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
 .footer-links {
     color:#0396a7;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
  /*menu de la empresa*/
@@ -104,6 +142,21 @@ footer {
     line-height: 1,5%; /*coloca un interlineado en el menu*/
     margin-left: -60%; /*centra el menu al lado del logo*/
     position: absolute;
+<<<<<<< HEAD
+=======
+        
+}
+.social-icons ul{
+    list-style-type:disc;
+    text-align:left;
+    display: block;
+    line-height: 1,5%;
+    margin-left: 70%;
+    max-width: 60%;
+    margin-top: -20%;
+    position: absolute;
+    
+>>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
 /*datos sociales de la empresa*/
@@ -121,12 +174,31 @@ footer {
 /*alineo las diferentes opciones del footer*/
 .logo-2, .footer-links ul, .social-icons ul {
     display: inline-block;
+<<<<<<< HEAD
 }
 
 
 .partners ul {
     display: block;
     margin: auto;
+=======
+}    
+    
+    
+
+.iconos ul {
+        display:inline-flex; /*coloca en linea los inconos*/
+        margin-left: 70%;
+        max-width: 60%;
+        margin-top: -10%;
+        position:absolute;
+    
+}
+    
+.iconos li{
+    display:inline-flex;
+    
+>>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
 /*alineo la opcion de redes sociales*/
@@ -143,6 +215,7 @@ footer {
     width: 20%;
     margin: 10%;
 }
+<<<<<<< HEAD
 
 /*organizo los datos de la parte inferior*/
 .parte_inferior {
@@ -150,6 +223,16 @@ footer {
     height: 40px;
     background-color: #024059;
     text-align: center;
+=======
+.main h1{
+    color:#0396a7;
+}
+.servh1{
+    color:#0396a7;
+}
+.main h2 {
+    color:#0396a7;
+>>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
 .mi-seccion {
