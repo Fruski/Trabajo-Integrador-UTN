@@ -78,24 +78,18 @@ header {
     background-color:#0396a7;
 }
 
-<<<<<<< HEAD
-/*Estilos en la seccion main productos*/
-
- /* centro todo lo que esta la seccion main productos*/
-.centro {
-    width: 80%;
-    margin: 10%;
-    margin-top: 80px;
-}
 
 
-/* Estilos en la seccion fooster*/
+
+
+
 
 footer {
     background-color:#0396a7; /* Fondo azul */
     color: white; /* Texto blanco */
-    padding: 10px 0;  /*Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
-=======
+    padding: 10px 0;  
+}/*Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
+
 .servicios {
     display: flex;
     flex-wrap: wrap;
@@ -108,30 +102,30 @@ footer {
     padding: 10px;
 }
   
+  
 .item img {
     margin-right: 20px;
     max-width: 100%;
     height: auto;
 }
   
+  
+  
 .content {
     display: flex;
     flex-direction: column;
 }
   
+  
 footer {
     background-color:#0396a7; /* Fondo azul */
     color: white; /* Texto blanco */
     padding: 10px 0; /* Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
->>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
 .footer-links {
     color:#0396a7;
-<<<<<<< HEAD
-=======
 
->>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
  /*menu de la empresa*/
@@ -142,8 +136,6 @@ footer {
     line-height: 1,5%; /*coloca un interlineado en el menu*/
     margin-left: -60%; /*centra el menu al lado del logo*/
     position: absolute;
-<<<<<<< HEAD
-=======
         
 }
 .social-icons ul{
@@ -156,7 +148,6 @@ footer {
     margin-top: -20%;
     position: absolute;
     
->>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
 /*datos sociales de la empresa*/
@@ -174,17 +165,9 @@ footer {
 /*alineo las diferentes opciones del footer*/
 .logo-2, .footer-links ul, .social-icons ul {
     display: inline-block;
-<<<<<<< HEAD
 }
 
 
-.partners ul {
-    display: block;
-    margin: auto;
-=======
-}    
-    
-    
 
 .iconos ul {
         display:inline-flex; /*coloca en linea los inconos*/
@@ -198,7 +181,6 @@ footer {
 .iconos li{
     display:inline-flex;
     
->>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
 /*alineo la opcion de redes sociales*/
@@ -215,15 +197,8 @@ footer {
     width: 20%;
     margin: 10%;
 }
-<<<<<<< HEAD
 
-/*organizo los datos de la parte inferior*/
-.parte_inferior {
-    position: relative;
-    height: 40px;
-    background-color: #024059;
-    text-align: center;
-=======
+/*organizo los datos de la parte inferior*/ 
 .main h1{
     color:#0396a7;
 }
@@ -232,7 +207,6 @@ footer {
 }
 .main h2 {
     color:#0396a7;
->>>>>>> 9838e8b431ee1cd600801b877eab6c366f3e3e4f
 }
 
 .mi-seccion {
