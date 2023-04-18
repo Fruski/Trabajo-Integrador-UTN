@@ -83,12 +83,18 @@ header {
     width: 80%;
     margin: 10%;
     margin-top: 80px;
+
 }
 
 .centro h1 {
     color:#03d9d9;  
 }
 
+/*centro los box de ingreso de datos*/
+
+.pedidoforms li {
+    line-height: 15%;
+}
 
 /* Estilos en la seccion fooster*/
 
