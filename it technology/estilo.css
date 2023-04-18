@@ -4,8 +4,8 @@ nav {
 
 nav a {
     text-decoration: none;
-    background-color: #0396a7;
-    color:#d7d9d8;
+    background-color: none;
+    color:none;
     padding: 10px 15px;
     display: inline-flex;
     font-family: 'Exo 2', sans-serif;
@@ -30,6 +30,7 @@ nav ul {
 header {
     background-color:#024059;
     padding: 20px;
+    border-color: none;
     margin: 0;
 }
 
@@ -91,11 +92,6 @@ header {
     color:#024059;
 }
 
-/*logo de la empresa*/
-.logo-2 {
-    background-color: #0396a7;
-}
-
 .main #fraseHome {
     color:#ffffff;
     font-family: 'Exo 2', sans-serif;
@@ -134,27 +130,28 @@ header {
 
 footer {
     background-color:#0396a7; /* Fondo azul */
-    color: white; /* Texto blanco */
+    color:#ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     padding: 10px 0;  /*Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
-}
-
-.footer-links {
-    color:#0396a7;
 }
 
  /*menu de la empresa*/
 .footer-links ul {
-    list-style-type: disc;
+    list-style: none;
+    color: #ffffff;
     display: block;
     text-align:left;
     line-height: 1,5%; /*coloca un interlineado en el menu*/
-    margin-left: -60%; /*centra el menu al lado del logo*/
+    margin-left:-60%; /*centra el menu al lado del logo*/
     position: absolute;
 }
 
+
 /*datos sociales de la empresa*/
 .social-icons ul {
-    list-style-type: disc;
+    list-style: none;
     text-align:left;
     display: block;
     line-height: 1,5%;
@@ -162,11 +159,6 @@ footer {
     max-width: 60%;
     margin-top: -20%;
     position: absolute;
-}
-
-/*alineo las diferentes opciones del footer*/
-.logo-2, .footer-links ul, .social-icons ul {
-    display: inline-block;
 }
 
 .centro {
@@ -182,6 +174,7 @@ footer {
 /*alineo la opcion de redes sociales*/
 .iconos ul {
     display:inline-flex; /*coloca en linea los inconos*/
+    list-style: none;
     margin-left: 70%;
     max-width: 60%;
     margin-top: -10%;
@@ -192,6 +185,7 @@ footer {
 .logo-2 {
     width: 20%;
     margin: 10%;
+    position: relative;
 }
 
 /*organizo los datos de la parte inferior*/
@@ -203,7 +197,11 @@ footer {
 }
 
 .mi-seccion {
-    background-color:black;
-    color:bisque;
+    background-color:#1d1d1b;
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     padding: 1px;
 }
