@@ -77,7 +77,7 @@ header {
 .servh1 {
     color:#0396a7;
     font-family: 'Exo 2', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 40px;
 }
 
@@ -89,11 +89,11 @@ h2 {
     text-transform: capitalize;
 }
 
-h5 {
+.subtitulo {
     color:#0396a7;
     font-family: 'Exo 2', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p {
@@ -145,7 +145,6 @@ footer {
     margin-left:-60%; /*centra el menu al lado del logo*/
     position: absolute;
 }
-
 
 /*datos sociales de la empresa*/
 .social-icons ul {
