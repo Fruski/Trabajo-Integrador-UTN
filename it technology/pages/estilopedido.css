@@ -101,7 +101,7 @@ header {
 
 .pedidoforms li {
     line-height: 15%;
-=======
+}
 .centro h2 {
     color:#3c3c3b;
     font-family: 'Exo 2', sans-serif;
@@ -126,7 +126,6 @@ header {
     list-style: none;
 }
 
-/* Estilos en la seccion footer*/
 footer {
     background-color:#0396a7; /* Fondo azul */
     color:#ffffff;
@@ -183,7 +182,7 @@ footer {
 .logo-2 {
     width: 20%;
     margin: 10%;
-    
+    position: relative;
 }
 
 /*organizo los datos de la parte inferior*/
