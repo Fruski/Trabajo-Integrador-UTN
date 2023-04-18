@@ -1,23 +1,21 @@
 nav {
     background-color:#0396a7; 
 }
-.navbar {
-    padding: none;
-} /*elimina las barras blancas arriba y abajo del menú*/
 
 nav a {
     text-decoration: none;
-    color:#d7d9d8;
-    background-color:#0396a7;
+    background-color:none;
+    color:none;
     padding: 10px 15px;
     display:inline-flex ;
     font-family: 'Exo 2', sans-serif;
-    font-weight:700; 
+    font-weight: 700;
     font-size: 16px; 
     text-transform: uppercase; 
     justify-content: right;
     align-items: flex-start;
 }
+
 nav ul {
     background-color:#0396a7;
     list-style: none; 
@@ -32,8 +30,10 @@ nav ul {
 header {
     background-color:#024059;
     padding: 20px;
+    border-color: none;
     margin: 0;
 }
+
 .header-container{
     display:inline-flex;
     align-items:flex-start;
@@ -49,15 +49,16 @@ header {
     width: 50%;
     max-width: 50px;
     margin: 0 auto;
-    color:#03d9d9;  
+    color:#0396a7;  
 }
    
 .container-fluid{
     background-color: #024059;
     padding: auto;
-    text-decoration-color:#d7d9d8;
-    color:#d7d9d8;
+    text-decoration-color:#ffffff;
+    color:#ffffff;
 }
+
 .navbar-brand{
     background-color: #024059;
     color: #024059;
@@ -71,51 +72,59 @@ header {
     color:#024059;
 }
 
-/*logo de la empresa*/
-.logo-2{
-    background-color:#0396a7;
-}
-.main h2{
-    color:#d7d9d8;
-   
-}
 .equip{
     color:#0396a7;
     font-family: 'Exo 2', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 40px;
 }
-.main h3{
-    color:#0396a7;
-   /* text-align: center; /*agregado por fruski*/
-    
+
+h2 {
+    color:#3c3c3b;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+h4 {
+    color:#3c3c3b;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+p {
+    color:#3c3c3b;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 
 footer {
     background-color:#0396a7; /* Fondo azul */
-    color: white; /* Texto blanco */
+    color:#ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     padding: 10px 0;  /*Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
-}
-.footer-links {
-    color:#0396a7;
-
 }
 
  /*menu de la empresa*/
 .footer-links ul{
-    list-style-type: disc;
+    list-style-type: none;
+    color: #ffffff;
     display: block;
     text-align:left;
     line-height: 1,5%; /*coloca un interlineado en el menu*/
     margin-left: -60%; /*centra el menu al lado del logo*/
     position: absolute;
-    
 }
 
 /*datos sociales de la empresa*/
 .social-icons ul{
-    list-style-type:disc;
+    list-style-type: none;
     text-align:left;
     display: block;
     line-height: 1,5%;
@@ -126,33 +135,23 @@ footer {
     
 }
 
-/*alineo las diferentes opciones del footer*/
-
-.logo-2, .footer-links ul, .social-icons ul{
-    display: inline-block;
-       
-    
-}
-
-
-
 /*alineo la opcion de redes sociales*/
 .iconos ul {
     display:inline-flex; /*coloca en linea los inconos*/
+    list-style: none;
     margin-left: 70%;
     max-width: 60%;
     margin-top: -10%;
     position:absolute;
-
 }
 
 /*le coloco un tamaño al logo*/
 .logo-2 {
     width: 20%;
     margin: 10%;
-
-
+    position: relative;
 }
+
 .main h2 {
     color:#0396a7;
 }
@@ -161,9 +160,21 @@ footer {
     justify-content: space-between;
     padding: 100px;
 }
-.mi-seccion {
-    background-color:black;
-    color:bisque;
-    padding: 1px;
+
+/*organizo los datos de la parte inferior*/
+.parte_inferior {
+    position: relative;
+    height: 40px;
+    background-color: #024059;
+    text-align: center;
 }
 
+.mi-seccion {
+    background-color:#1d1d1b;
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 1px;
+}
