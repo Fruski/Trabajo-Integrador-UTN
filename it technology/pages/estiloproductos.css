@@ -6,12 +6,12 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: none;
-    background-color: none;
+    background-color:none;
+    color:none;
     padding: 10px 15px;
     display:inline-flex ;
     font-family: 'Exo 2', sans-serif;
-    font-weight:700; 
+    font-weight: 700;
     font-size: 16px; 
     text-transform: uppercase; 
     justify-content: right;
@@ -33,10 +33,10 @@ header {
     background-color:#024059;
     padding: 20px;
     border-color: none;
-    margin: 0%;
+    margin: 0;
 }
 
-.header-container{
+.header-container {
     display:inline-flex;
     align-items:flex-start;
     align-content: flex-start;
@@ -75,11 +75,11 @@ header {
 }
 
 /*Estilos en la seccion main productos*/
-h1 {
-    color:#0396a7;
+.centro h1 {
+    color:#03d9d9;
     font-family: 'Exo 2', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 40px;  
 }
 
 h2 {
@@ -104,9 +104,7 @@ p {
     margin-top: 80px;
 }
 
-.centro h1 {
-    color:#03d9d9;  
-}
+
 
 /*coloco estilo a la seccion productos*/
 
