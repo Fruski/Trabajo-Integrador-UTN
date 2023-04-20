@@ -131,23 +131,28 @@ header {
 footer {
     background-color:#0396a7; /* Fondo azul */
     color:#ffffff;
+    text-decoration: none;
     font-family: 'Exo 2', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    padding: 10px 0;  /*Agrega un relleno de 20px arriba y abajo, sin relleno a la izquierda y a la derecha */
+}
+
+/*le coloco un tamaño al logo*/
+.logo-2 {
+    width: 20%;
+    margin: 10%;
+    position: relative;
 }
 
  /*menu de la empresa*/
 .footer-links ul {
     list-style: none;
-    color: #ffffff;
     display: block;
     text-align:left;
     line-height: 1,5%; /*coloca un interlineado en el menu*/
     margin-left:-60%; /*centra el menu al lado del logo*/
     position: absolute;
 }
-
 
 /*datos sociales de la empresa*/
 .social-icons ul {
@@ -166,6 +171,10 @@ footer {
     margin: 10%;
 }
 
+.partners {
+    margin: 10%;
+}
+
 .partners ul {
     display: block;
     margin: auto;
@@ -181,19 +190,14 @@ footer {
     position:absolute;
 }
 
-/*le coloco un tamaño al logo*/
-.logo-2 {
-    width: 20%;
-    margin: 10%;
-    position: relative;
-}
-
 /*organizo los datos de la parte inferior*/
 .parte_inferior {
     position: relative;
     height: 40px;
     background-color: #024059;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .mi-seccion {
