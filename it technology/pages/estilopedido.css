@@ -3,46 +3,45 @@
 nav {
     background-color:#0396a7; 
 }
-.navbar {
-    padding: none;
-} /*elimina las barras blancas arriba y abajo del menú*/
 
 nav a {
     text-decoration: none;
-    color:#d7d9d8;
-    background-color:#0396a7;
+    background-color:none;
+    color:none;
     padding: 10px 15px;
     display:inline-flex ;
     font-family: 'Exo 2', sans-serif;
-    font-weight:700; 
+    font-weight: 700;
     font-size: 16px; 
     text-transform: uppercase; 
     justify-content: right;
     align-items: flex-start;
 }
+
 nav ul {
     background-color:#0396a7;
     list-style: none; 
     margin: 0; 
     padding: 0; 
     display:inline-flex; 
-    color:#d7d9d8; /*coloco color a las letras*/
+    color:#ffffff; /*coloco color a las letras*/
     justify-content:left; /* Distribuye el espacio entre los elementos de la lista */
     align-items:flex-start; /* Centra verticalmente los elementos de la lista */
 }
 
-
 header {
     background-color:#024059;
     padding: 20px;
-    margin: 0%;
+    border-color: none;
+    margin: 0;
 }
-.header-container{
+
+.header-container {
     display:inline-flex;
     align-items:flex-start;
     align-content: flex-start;
     background-color:#024059;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .container {
@@ -119,6 +118,9 @@ header {
 }
 
 /*centro los box de ingreso de datos*/
+.pedidos {
+    margin-bottom: 10%;
+}
 
 .pedidos li {
     width: 30%;
