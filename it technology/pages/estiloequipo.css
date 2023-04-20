@@ -1,6 +1,7 @@
 nav {
     background-color:#0396a7; 
 }
+
 .navbar {
     padding: none;
 } /*elimina las barras blancas arriba y abajo del menú*/
@@ -53,6 +54,11 @@ header {
     max-width: 50px;
     margin: 0 auto;
     color:#0396a7;  
+}
+@media (min-width: 576px) {
+    .container{
+        display: flex;
+    }
 }
    
 .container-fluid{
@@ -163,6 +169,7 @@ footer {
     justify-content: space-between;
     padding: 100px;
 }
+
 
 /*organizo los datos de la parte inferior*/
 .parte_inferior {
