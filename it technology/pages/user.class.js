@@ -2,7 +2,7 @@
 
   /*datos que va a recibir la class*/
 
-  export class User {
+  export class user {
       nombre = '';
       apellido = '';
       empresa = '';

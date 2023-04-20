@@ -36,17 +36,22 @@
         Si optás por servicios, te pedimos que además de seleccionar el servicio de tu interés, nos dejes un mensaje contándonos brevemente el problema a solucionar y a la brevedad nos contactaremos para darte la solución.
         Gracias por elegirnos!</p>
         <br>
-        
-        <form id="pedidoforms"> 
-            <li>NOMBRE: <input type="text" name ="nombre" placeholder="Nombre"> </li>
-            <li>APELLIDO: <input type="text" name ="apellido" placeholder="Apellido"> </li>
-            <li>EMPRESA: <input type="text" name ="empresa" placeholder="Empresa"> </li>
-            <li>E-MAIL: <input type="text" name ="mail" placeholder="E-mail"> </li>
-            <li>TELEFONO: <input type="text" name ="telefono" placeholder="Telefono"> </li>
-            <li>SELECCIONÁ LA OPCIÓN: <input type="text" name ="opcion" placeholder="Servicio o productos"> </li>
+      </div>
+      <div class="pedidos">   
+         <form id="pedidoforms"> 
+            <li>NOMBRE:    <input type="text" name ="nombre" placeholder="Nombre"> </li>
+            <li>APELLIDO:  <input type="text" name ="apellido" placeholder="Apellido"> </li>
+            <li>EMPRESA:   <input type="text" name ="empresa" placeholder="Empresa"> </li>
+            <li>E-MAIL:    <input type="text" name ="mail" placeholder="E-mail"> </li>
+            <li>TELEFONO:  <input type="text" name ="telefono" placeholder="Telefono"> </li>
+            <li>SELECCIONÁ LA OPCIÓN: <select name = "opciones" id="opciones">
+                                       <option value = "productos"> Productos </option>
+                                       <option value = "servicios"> Servicios </option>
+                                     </select> </li>
             <button type="submit">Preciona aqui para tu pedido</button>
         </form>
-     <div class="centro">
+      </div> 
+      
    </main>
 
    <footer>
@@ -104,7 +109,7 @@
     </p> TRABAJO FINAL INTEGRADOR · ARGENTINA PROGRAMA · <span>2023</span> · GONZALEZ - RUSKI - SAPENA - DAMIANI</p>           
    </div>
   
-   <script type="module" src ="https://raw.githubusercontent.com/Fruski/Trabajo-Integrador-UTN/e19af55e6897849d010bda88d54b766ef73e6c68/it%20technology/pages/pedidoforms.js"></script>
+   <scripttype type="module" src ="../pages/pedidoforms.js"></script>
 
 </body>
 </html>

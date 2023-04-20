@@ -22,7 +22,7 @@ form.addEventListener ('submit', (e) => {
         console.log(user);
         pedidoarray.push(user) 
         localStorage.setItem('users', JSON.stringify(pedidoarray)) /*convertimos el user en una cadena de string*/
-        window.location = "../pages/productos.html"  /*estoy pidiendo que me envie a la pagina de productos*/
+       /* window.location = "../pages/productos.html"  /*estoy pidiendo que me envie a la pagina de productos*/
 
      }else {
         alert('Debe ingresar todos los campos')
