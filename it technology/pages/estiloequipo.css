@@ -1,6 +1,9 @@
 nav {
     background-color:#0396a7; 
 }
+.navbar {
+    padding: none;
+} /*elimina las barras blancas arriba y abajo del menú*/
 
 nav a {
     text-decoration: none;
