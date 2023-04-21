@@ -110,6 +110,12 @@ p {
     font-size: 18px;
 }
 
+.centro {
+    width: 80%;
+    margin: 10%;
+    margin-top: 80px;
+}
+
 
 footer {
     background-color:#0396a7; /* Fondo azul */
